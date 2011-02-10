@@ -1,0 +1,16 @@
+@import(reset.css);
+
+body {
+  width:960px;
+  margin:0px auto;
+  background:rgb(10,10,10);;
+}
+
+#status {
+    font-family:helvetica,arial,sans-serif;
+    font-weight:bold;
+    font-size:50px;
+    margin:300px;
+    width:200px;
+    color:white;
+}
