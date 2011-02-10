@@ -18,7 +18,6 @@ header h1 {
 
 #status {
     margin: 0px auto;
-    font-size:50px;
     width:400px;
     height:400px;
     background: url(/circle.png);
@@ -26,6 +25,7 @@ header h1 {
 
 #status h2 {
     position:relative;
+    font-size:50px;
     height:400px;
     line-height:400px;
     margin:0 auto;
@@ -33,7 +33,7 @@ header h1 {
 }
 
 iframe {
-    postiion:fixed;
+    position:fixed;
     left:10px;
     bottom:10px;
 }
