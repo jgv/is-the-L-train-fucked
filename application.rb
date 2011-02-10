@@ -4,6 +4,7 @@ require 'nokogiri'
 
 
 get '/' do
-  doc = Nokogiri::XML(open('http://mta.info/status/serviceStatus.txt'))  
-  doc.xpath('//line/name').to_s
+  @doc = Nokogiri::XML(open('http://mta.info/status/serviceStatus.txt'))  
+  @names = @doc.xpath('//status')
+  @names[7]
 end
