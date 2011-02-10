@@ -38,10 +38,24 @@ header h1 {
 iframe {
     position:fixed;
     left:10px;
-    bottom:10px;
+    bottom:15px;
     z-index:2;
 }
 
+footer {
+    color: rgb(200);
+    position:fixed;
+    left:10px;
+    bottom:10px;
+    z-index:2;
+    width:200px;
+    font-size:10px;
+}
+
+footer a {
+    color: rgb(150,150,150);
+    text-decoration:none;
+}
 
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
