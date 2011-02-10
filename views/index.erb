@@ -33,7 +33,7 @@
     </header>
     <section id="status">
       <h2>
-      <% if @status != "GOOD SERVICE" %>
+      <% if @status.to_s =~ /GOOD SERVICE/ %>
       nope
       <% else %>
       yup
