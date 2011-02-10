@@ -1,4 +1,4 @@
-@import(reset.css);
+@import url('reset.css');
 
 body {
   width:960px;
@@ -13,19 +13,21 @@ body {
 
 header h1 {
     text-align:center;
-    margin-bottom:100px;
+    margin-bottom:80px;
+    font-size:32px;
 }
 
 #status {
     margin: 0px auto;
     width:400px;
     height:400px;
+    min-height:400px;
     background: url(/circle.png);
 }
 
 #status h2 {
     position:relative;
-    font-size:50px;
+    font-size:90px;
     height:400px;
     width:400px;
     line-height:400px;
@@ -37,4 +39,9 @@ iframe {
     position:fixed;
     left:10px;
     bottom:10px;
+    z-index:2;
 }
+
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
