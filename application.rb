@@ -5,7 +5,6 @@ require 'erb'
 
 get '/' do
   @doc = Nokogiri::XML(open('http://mta.info/status/serviceStatus.txt'))  
-  @names = @doc.xpath('//status')
-  @status = @names[7]
+  @names = @doc.xpath('//status')[7]
   erb :index
 end
