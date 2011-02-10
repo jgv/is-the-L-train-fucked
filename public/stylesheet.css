@@ -4,13 +4,24 @@ body {
   width:960px;
   margin:0px auto;
   background:rgb(10,10,10);;
+  padding-top:100px;
 }
 
 #status {
+    margin: 0px auto;
     font-family:helvetica,arial,sans-serif;
     font-weight:bold;
     font-size:50px;
-    margin:300px;
-    width:200px;
+    width:400px;
+    height:400px;
+    background: url(/circle.png);
     color:white;
+}
+
+#status h2 {
+    position:relative;
+    height:400px;
+    line-height:400px;
+    margin:0 auto;
+    text-align:center;
 }
