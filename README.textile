@@ -1,0 +1,3 @@
+h1. Is the L Train Fucked?
+
+p. This is the code behind the simple single serving site, "istheltrainfucked.com":http://istheltrainfucked.com. It relies on the MTA's API and is by no means *optimized*. It also does not provide real-time information, as the MTA has not made that data available. I wrote a little blog post about it "here":http://jonathanvingiano.com/blog/is-the-l-train-fucked. Feel free to fork it and add your own train.
